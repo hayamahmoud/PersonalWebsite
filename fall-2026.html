@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fall 2026 Co-op Report by Haya Mahmoud.">
+  <meta name="keywords" content="Haya Mahmoud, Co-op Report, Fall 2026, Software Engineering">
+  <meta name="author" content="Haya Mahmoud">
+  <meta property="og:title" content="Fall 2026 Co-op Report | Haya Mahmoud">
+  <meta property="og:description" content="An interactive co-op work term report for Fall 2026.">
+  <meta property="og:type" content="website">
+  <title>Haya Mahmoud | F26</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="webstyle.css">
+</head>
+<body>
+  <div class="scroll-progress" aria-hidden="true"></div>
+
+  <header class="top-nav">
+    <div class="nav-container">
+      <div class="logo">
+        <a href="index.html" aria-label="Go to home page">HM</a>
+      </div>
+
+      <button class="menu-toggle" aria-label="Toggle navigation" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav aria-label="Main navigation">
+        <ul id="nav-menu">
+          <li><a href="/Home/" data-section="home">Home</a></li>
+          <li><a href="/Experience/" data-section="experience">Experience</a></li>
+          <li class="nav-dropdown active">
+            <button class="nav-dropdown-toggle" type="button" aria-haspopup="true" aria-expanded="false">Co-op Reports</button>
+            <div class="nav-dropdown-menu" aria-label="Co-op report links">
+              <a href="/coop-reports/" data-section="coop-reports">Overview</a>
+              <a href="/coop-reports/s26/introduction/">Summer 2026</a>
+              <a href="fall-2026.html" class="active">Fall 2026</a>
+            </div>
+          </li>
+          <li><a href="/Projects/" data-section="projects">Projects</a></li>
+          <li><a href="/Skills/" data-section="skills">Skills</a></li>
+          <li><a href="/Contact/" data-section="contact">Contact</a></li>
+          <li class="resume-link">
+            <a href="resume.html" target="_blank" rel="noopener noreferrer">Resume</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="coop-report-page">
+    <section class="report-hero kenna-report-hero">
+      <div class="report-hero-content">
+        <a href="/coop-reports/" class="report-back-link" data-section="coop-reports"> Back </a>
+        <!-- <p class="section-kicker">Co-op Work Term Report</p> -->
+        <div class="report-title-row">
+          <h1 class="handwriting-title is-writing" tabindex="0" aria-label="Fall 2026. Activate to replay the typing animation.">
+            <span class="draw-word" aria-hidden="true">
+              <span class="draw-letter" data-letter="F" style="--letter-delay: 0ms;">F</span>
+              <span class="draw-letter" data-letter="a" style="--letter-delay: 135ms;">a</span>
+              <span class="draw-letter" data-letter="l" style="--letter-delay: 270ms;">l</span>
+              <span class="draw-letter" data-letter="l" style="--letter-delay: 405ms;">l</span>
+              <span class="draw-space"></span>
+              <span class="draw-letter" data-letter="2" style="--letter-delay: 675ms;">2</span>
+              <span class="draw-letter" data-letter="0" style="--letter-delay: 810ms;">0</span>
+              <span class="draw-letter" data-letter="2" style="--letter-delay: 945ms;">2</span>
+              <span class="draw-letter" data-letter="6" style="--letter-delay: 1080ms;">6</span>
+            </span>
+          </h1>
+          <img src="images/freshbooks.png" alt="FreshBooks logo" class="report-title-logo">
+        </div>
+
+        <nav class="report-toc" aria-label="Report sections">
+          <a href="/coop-reports/f26/introduction/" data-report-section="introduction" class="active">Introduction</a>
+          <a href="/coop-reports/f26/employer/" data-report-section="employer">Employer</a>
+          <a href="/coop-reports/f26/goals/" data-report-section="goals">Goals</a>
+          <a href="/coop-reports/f26/job-description/" data-report-section="job-description">Job Description</a>
+          <a href="/coop-reports/f26/conclusions/" data-report-section="conclusions">Conclusions</a>
+          <a href="/coop-reports/f26/acknowledgements/" data-report-section="acknowledgments">Acknowledgements</a>
+        </nav>
+      </div>
+
+    </section>
+
+    <section class="report-layout" aria-label="Fall 2026 report content">
+      <div class="report-sections">
+        <article class="report-section-card" id="introduction">
+          <header class="report-page-heading">
+            <span class="report-section-count">01</span>
+            <h2>Introduction</h2>
+          </header>
+          <div class="report-media-grid">
+            <section class="report-copy report-content-card report-copy-card">
+              <!-- Replace this placeholder with the Fall 2026 introduction content. -->
+              <p>Welcome to my Fall 2026 co-op report about my experience as a Full Stack Software Developer Co-op at FreshBooks.</p>
+            </section>
+
+            <figure class="report-photo-card">
+              <img src="images/freshbooks-bg-with-coops.PNG" alt="FreshBooks co-op students">
+              <figcaption>Photo with fellow coops and Engineering Co-op Manager.</figcaption>
+            </figure>
+          </div>
+        </article>
+
+        <article class="report-section-card" id="employer">
+          <header class="report-page-heading">
+            <span class="report-section-count">02</span>
+            <h2>Employer</h2>
+          </header>
+          <section class="report-copy report-content-card report-copy-card">
+            <!-- Replace this placeholder with the Fall 2026 employer content. -->
+            <p>Employer details will be added here, including the organization, its work, and my work environment.</p>
+          </section>
+        </article>
+
+        <article class="report-section-card" id="goals">
+          <header class="report-page-heading">
+            <span class="report-section-count">03</span>
+            <h2>Goals</h2>
+          </header>
+          <section class="report-copy report-content-card report-copy-card">
+            <!-- Replace this placeholder with the Fall 2026 goals content. -->
+            <p>Learning goals will be added here, along with action plans, measures of success, and reflections.</p>
+          </section>
+        </article>
+
+        <article class="report-section-card" id="job-description">
+          <header class="report-page-heading">
+            <span class="report-section-count">04</span>
+            <h2>Job Description</h2>
+          </header>
+          <section class="report-copy report-content-card report-copy-card">
+            <!-- Replace this placeholder with the Fall 2026 job description content. -->
+            <p>Details about my role, responsibilities, projects, and the tools I use will be added here.</p>
+          </section>
+        </article>
+
+        <article class="report-section-card" id="conclusions">
+          <header class="report-page-heading">
+            <span class="report-section-count">05</span>
+            <h2>Conclusions</h2>
+          </header>
+          <section class="report-copy report-content-card report-copy-card">
+            <!-- Replace this placeholder with the Fall 2026 conclusions content. -->
+            <p>My reflections on the Fall 2026 work term and what I learned will be added here.</p>
+          </section>
+        </article>
+
+        <article class="report-section-card" id="acknowledgments">
+          <header class="report-page-heading">
+            <span class="report-section-count">06</span>
+            <h2>Acknowledgements</h2>
+          </header>
+          <section class="report-copy report-content-card report-copy-card">
+            <!-- Replace this placeholder with the Fall 2026 acknowledgements content. -->
+            <p>Acknowledgements for the people who supported me during this work term will be added here.</p>
+          </section>
+        </article>
+
+        <nav class="report-pager" aria-label="Report page navigation">
+          <a href="/coop-reports/f26/introduction/" class="report-pager-link report-pager-prev" data-report-prev>
+            <span>Previous</span>
+            <strong>Introduction</strong>
+          </a>
+          <a href="/coop-reports/f26/employer/" class="report-pager-link report-pager-next" data-report-next>
+            <span>Next</span>
+            <strong>Employer</strong>
+          </a>
+        </nav>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-brand">HM</div>
+
+      <div class="footer-social">
+        <a href="mailto:hmahmo03@uoguelph.ca" aria-label="Email">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect width="20" height="16" x="2" y="4" rx="2"/>
+            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/hayamahmoud" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+            <rect width="4" height="12" x="2" y="9"/>
+            <circle cx="4" cy="4" r="2"/>
+          </svg>
+        </a>
+        <a href="https://github.com/hayamahmoud" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/>
+            <path d="M9 18c-4.51 2-5-2-7-2"/>
+          </svg>
+        </a>
+      </div>
+
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="/Home/" data-section="home">Home</a>
+        <a href="/Experience/" data-section="experience">Experience</a>
+        <a href="/coop-reports/" data-section="coop-reports">Co-op Reports</a>
+        <a href="/Projects/" data-section="projects">Projects</a>
+        <a href="/Skills/" data-section="skills">Skills</a>
+        <a href="/Contact/" data-section="contact">Contact</a>
+      </nav>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Haya Mahmoud</p>
+    </div>
+  </footer>
+
+  <script>
+    // Keep deferred image requests anchored to this file when report routes change.
+    document.querySelectorAll('img[src]').forEach(image => {
+      image.src = new URL(image.getAttribute('src'), document.baseURI).href;
+    });
+
+    // Local previews need the report file relative to this page, not the disk root.
+    if (window.location.protocol === 'file:') {
+      document.querySelectorAll('a[href="/coop-reports/s26/introduction/"]').forEach(link => {
+        link.href = new URL('summer-2026.html?reportSection=introduction', document.baseURI).href;
+      });
+    }
+
+    const navMenu = document.getElementById('nav-menu');
+    const progress = document.querySelector('.scroll-progress');
+    const reportPage = document.querySelector('.coop-report-page');
+    const reportLayout = document.querySelector('.report-layout');
+    const reportSectionsContainer = document.querySelector('.report-sections');
+    const reportCards = document.querySelectorAll('.report-section-card');
+    const tocLinks = document.querySelectorAll('.report-toc a');
+    const navDropdowns = document.querySelectorAll('.nav-dropdown');
+    const dropdownToggles = document.querySelectorAll('.nav-dropdown-toggle');
+    const pagerPrev = document.querySelector('[data-report-prev]');
+    const pagerNext = document.querySelector('[data-report-next]');
+    const reportSections = [
+      { id: 'introduction', label: 'Introduction', path: '/coop-reports/f26/introduction/' },
+      { id: 'employer', label: 'Employer', path: '/coop-reports/f26/employer/' },
+      { id: 'goals', label: 'Goals', path: '/coop-reports/f26/goals/' },
+      { id: 'job-description', label: 'Job Description', path: '/coop-reports/f26/job-description/' },
+      { id: 'conclusions', label: 'Conclusions', path: '/coop-reports/f26/conclusions/' },
+      { id: 'acknowledgments', label: 'Acknowledgements', path: '/coop-reports/f26/acknowledgements/' }
+    ];
+    const reportSectionIds = reportSections.map(section => section.id);
+    const reportSectionPaths = Object.fromEntries(reportSections.map(section => [section.id, section.path]));
+    const reportPathSections = {
+      introduction: 'introduction',
+      employer: 'employer',
+      goals: 'goals',
+      'job-description': 'job-description',
+      conclusions: 'conclusions',
+      acknowledgments: 'acknowledgments',
+      acknowledgements: 'acknowledgments'
+    };
+    const reduceMotionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+    let activeReportSectionId = '';
+    let isReportTransitioning = false;
+
+    function toggleMenu() {
+      navMenu.classList.toggle('active');
+    }
+
+    document.querySelectorAll('.resume-link a').forEach(link => {
+      if (window.location.protocol !== 'file:') link.href = '/resume.html';
+    });
+
+    function getReportHref(sectionId) {
+      if (window.location.protocol === 'file:') {
+        return `fall-2026.html?reportSection=${encodeURIComponent(sectionId)}`;
+      }
+
+      return reportSectionPaths[sectionId] || reportSectionPaths.introduction;
+    }
+
+    function setReportPath(sectionId, replace = false) {
+      const nextPath = getReportHref(sectionId);
+      if (window.location.protocol === 'file:') return;
+      if (window.location.pathname === nextPath) return;
+      history[replace ? 'replaceState' : 'pushState']({ reportSection: sectionId }, '', nextPath);
+    }
+
+    function getRouteSection() {
+      const querySection = new URLSearchParams(window.location.search).get('reportSection');
+      const pathPart = window.location.pathname.replace(/\/$/, '').split('/').pop();
+      return reportPathSections[querySection] || reportPathSections[pathPart] || 'introduction';
+    }
+
+    function updateReportPager(sectionId) {
+      const sectionIndex = reportSectionIds.indexOf(sectionId);
+      const previousSection = reportSections[sectionIndex - 1];
+      const nextSection = reportSections[sectionIndex + 1];
+
+      [pagerPrev, pagerNext].forEach(link => {
+        if (!link) return;
+        link.removeAttribute('aria-disabled');
+        link.removeAttribute('tabindex');
+      });
+
+      if (pagerPrev) {
+        if (previousSection) {
+          pagerPrev.href = getReportHref(previousSection.id);
+          pagerPrev.dataset.reportSection = previousSection.id;
+          pagerPrev.querySelector('strong').textContent = previousSection.label;
+          pagerPrev.hidden = false;
+        } else {
+          pagerPrev.hidden = true;
+        }
+      }
+
+      if (pagerNext) {
+        if (nextSection) {
+          pagerNext.href = getReportHref(nextSection.id);
+          pagerNext.dataset.reportSection = nextSection.id;
+          pagerNext.querySelector('strong').textContent = nextSection.label;
+          pagerNext.hidden = false;
+        } else {
+          pagerNext.hidden = true;
+        }
+      }
+    }
+
+    function renderReportSection(sectionId) {
+      reportPage.classList.add('is-paged');
+      reportCards.forEach(card => {
+        const isActive = card.id === sectionId;
+        card.hidden = !isActive;
+        card.classList.toggle('is-active', isActive);
+        card.classList.toggle('is-visible', isActive);
+      });
+
+      tocLinks.forEach(link => {
+        const isActive = link.dataset.reportSection === sectionId;
+        link.classList.toggle('active', isActive);
+        if (isActive) {
+          link.setAttribute('aria-current', 'page');
+        } else {
+          link.removeAttribute('aria-current');
+        }
+        link.href = getReportHref(link.dataset.reportSection);
+      });
+
+      updateReportPager(sectionId);
+      activeReportSectionId = sectionId;
+    }
+
+    function getReportDirection(nextSectionId) {
+      const currentIndex = reportSectionIds.indexOf(activeReportSectionId);
+      const nextIndex = reportSectionIds.indexOf(nextSectionId);
+      return currentIndex > nextIndex ? 'prev' : 'next';
+    }
+
+    function wait(ms) {
+      return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
+    async function showReportSection(sectionId, options = {}) {
+      const { replace = false, scroll = true, updateUrl = true, animate = false, direction = '' } = options;
+      const safeSectionId = reportSectionIds.includes(sectionId) ? sectionId : 'introduction';
+      const currentCard = activeReportSectionId ? document.getElementById(activeReportSectionId) : null;
+      const nextCard = document.getElementById(safeSectionId);
+      const shouldFlip = animate && currentCard && nextCard && currentCard !== nextCard && !reduceMotionQuery.matches;
+
+      if (isReportTransitioning) return;
+
+      if (!shouldFlip) {
+        renderReportSection(safeSectionId);
+        if (updateUrl) setReportPath(safeSectionId, replace);
+        if (scroll) reportLayout.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        return;
+      }
+
+      isReportTransitioning = true;
+      const flipDirection = direction || getReportDirection(safeSectionId);
+
+      reportPage.classList.add('is-flipping');
+      reportSectionsContainer.classList.add(`is-page-exit-${flipDirection}`);
+      await wait(420);
+      reportSectionsContainer.classList.remove(`is-page-exit-${flipDirection}`);
+      renderReportSection(safeSectionId);
+      reportSectionsContainer.classList.add(`is-page-enter-${flipDirection}`);
+      if (updateUrl) setReportPath(safeSectionId, replace);
+      if (scroll) reportLayout.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      await wait(460);
+
+      reportSectionsContainer.classList.remove(`is-page-enter-${flipDirection}`);
+      reportPage.classList.remove('is-flipping');
+      isReportTransitioning = false;
+    }
+
+    const initialReportSection = getRouteSection();
+
+    document.querySelectorAll('a[data-section]').forEach(link => {
+      link.addEventListener('click', event => {
+        event.preventDefault();
+        navMenu.classList.remove('active');
+        navDropdowns.forEach(dropdown => dropdown.classList.remove('open'));
+        dropdownToggles.forEach(toggle => toggle.setAttribute('aria-expanded', 'false'));
+        sessionStorage.setItem('targetSection', link.dataset.section);
+        window.location.href = window.location.protocol === 'file:' ? `index.html?section=${link.dataset.section}` : link.href;
+      });
+    });
+
+    dropdownToggles.forEach(toggle => {
+      toggle.addEventListener('click', () => {
+        const dropdown = toggle.closest('.nav-dropdown');
+        const isOpen = dropdown.classList.toggle('open');
+        toggle.setAttribute('aria-expanded', String(isOpen));
+      });
+    });
+
+    document.querySelectorAll('a[href="fall-2026.html"]').forEach(link => {
+      link.addEventListener('click', event => {
+        event.preventDefault();
+        window.location.href = getReportHref('introduction');
+      });
+    });
+
+    document.querySelectorAll('[data-report-section]').forEach(link => {
+      link.addEventListener('click', event => {
+        event.preventDefault();
+        navMenu.classList.remove('active');
+        navDropdowns.forEach(dropdown => dropdown.classList.remove('open'));
+        dropdownToggles.forEach(toggle => toggle.setAttribute('aria-expanded', 'false'));
+        showReportSection(link.dataset.reportSection);
+      });
+    });
+
+    [pagerPrev, pagerNext].forEach(link => {
+      link?.addEventListener('click', event => {
+        if (!link.dataset.reportSection) return;
+        event.preventDefault();
+        showReportSection(link.dataset.reportSection, {
+          animate: true,
+          direction: link === pagerPrev ? 'prev' : 'next'
+        });
+      });
+    });
+
+    document.querySelectorAll('.playful-card').forEach(card => {
+      card.addEventListener('pointermove', event => {
+        const rect = card.getBoundingClientRect();
+        const x = event.clientX - rect.left;
+        const y = event.clientY - rect.top;
+        card.style.setProperty('--tilt-x', `${((y / rect.height) - 0.5) * -4}deg`);
+        card.style.setProperty('--tilt-y', `${((x / rect.width) - 0.5) * 4}deg`);
+      });
+
+      card.addEventListener('pointerleave', () => {
+        card.style.setProperty('--tilt-x', '0deg');
+        card.style.setProperty('--tilt-y', '0deg');
+      });
+    });
+
+    document.addEventListener('pointermove', event => {
+      document.body.style.setProperty('--cursor-x', `${event.clientX}px`);
+      document.body.style.setProperty('--cursor-y', `${event.clientY}px`);
+    });
+
+    const typingTitle = document.querySelector('.handwriting-title');
+    const typingLetters = Array.from(typingTitle?.querySelectorAll('.draw-letter') || []);
+    let typingTimers = [];
+
+    function clearTypingTimers() {
+      typingTimers.forEach(timer => window.clearTimeout(timer));
+      typingTimers = [];
+    }
+
+    function replayTypingTitle() {
+      if (!typingTitle || !typingLetters.length) return;
+
+      clearTypingTimers();
+      typingTitle.classList.add('is-writing');
+      typingLetters.forEach(letter => letter.classList.remove('is-typed', 'is-caret'));
+      void typingTitle.offsetWidth;
+
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        typingTitle.classList.remove('is-writing');
+        return;
+      }
+
+      typingLetters.forEach(letter => {
+        const delay = Number.parseFloat(letter.style.getPropertyValue('--letter-delay')) || 0;
+        const timer = window.setTimeout(() => {
+          typingLetters.forEach(item => item.classList.remove('is-caret'));
+          letter.classList.add('is-typed', 'is-caret');
+        }, delay);
+        typingTimers.push(timer);
+      });
+
+      const finalLetter = typingLetters[typingLetters.length - 1];
+      const finalDelay = Number.parseFloat(
+        finalLetter.style.getPropertyValue('--letter-delay')
+      ) || 0;
+      typingTimers.push(window.setTimeout(() => {
+        finalLetter.classList.remove('is-caret');
+        typingTitle.classList.remove('is-writing');
+      }, finalDelay + 450));
+    }
+
+    typingTitle?.addEventListener('click', replayTypingTitle);
+    typingTitle?.addEventListener('keydown', event => {
+      if (event.key !== 'Enter' && event.key !== ' ') return;
+      event.preventDefault();
+      replayTypingTitle();
+    });
+
+    replayTypingTitle();
+
+    function initScrollDownCues() {
+      const pageSections = Array.from(document.querySelectorAll('main > section'));
+      pageSections.slice(0, -1).forEach((section, index) => {
+        if (section.querySelector('.scroll-down-cue')) return;
+        const nextSection = pageSections[index + 1];
+        section.classList.add('has-scroll-cue');
+
+        const cue = document.createElement('button');
+        cue.type = 'button';
+        cue.className = 'scroll-down-cue';
+        cue.setAttribute('aria-label', 'Scroll down');
+        cue.innerHTML = '<span>Scroll down</span>';
+        cue.addEventListener('click', () => {
+          nextSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+
+        section.appendChild(cue);
+      });
+    }
+
+    window.addEventListener('scroll', () => {
+      const nav = document.querySelector('.top-nav');
+      nav.classList.toggle('scrolled', window.scrollY > 50);
+
+      const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+      const progressWidth = maxScroll > 0 ? (window.scrollY / maxScroll) * 100 : 0;
+      progress.style.width = `${progressWidth}%`;
+    });
+
+    window.addEventListener('popstate', () => {
+      showReportSection(getRouteSection(), { replace: true, scroll: false, updateUrl: false });
+    });
+
+    requestAnimationFrame(() => {
+      showReportSection(initialReportSection, { replace: true, scroll: false });
+    });
+    initScrollDownCues();
+  </script>
+</body>
+</html>

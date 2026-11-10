@@ -41,6 +41,7 @@
             <div class="nav-dropdown-menu" aria-label="Co-op report links">
               <a href="/coop-reports/" data-section="coop-reports">Overview</a>
               <a href="/coop-reports/s26/introduction/">Summer 2026</a>
+              <a href="/coop-reports/f26/introduction/">Fall 2026</a>
             </div>
           </li>
           <li><a href="/Projects/" data-section="projects">Projects</a></li>
@@ -94,12 +95,38 @@
           </div>
           <div class="experience-content">
             <p class="project-meta">FreshBooks</p>
-            <h3>Full Stack Software Engineer Co-op</h3>
+            <h3>Full Stack Software Developer Co-op</h3>
             <ul class="job-description">
             <li>
-              Incoming Fall 2026
+              Engineer and ship end-to-end full stack features, including an overtime pay feature in FreshBooks Payroll, contributing to
+              weekly production releases on a financial platform that serves <strong>30M+</strong> users.
+            </li>
+            <li>
+              Modernize <strong>14+</strong> REST API endpoints across <strong>4+</strong> payroll workflows, reducing average response latency by <strong>8%</strong> and improving
+              the performance of third-party integrations
+            </li>
+            <li>
+              Re-architect <strong>3</strong> backend modules and <strong>6+</strong> integration components using hexagonal architecture, separating business logic
+              from external dependencies to improve maintainability, scalability, and testability.
+            </li>
+            <li>
+              Improve AI-assisted development efficiency by <strong>15%</strong> by optimizing Claude Code workflows with structured repository
+              documentation, accelerating code exploration, feature development, and test generation.
             </li>
             </ul>
+            <div class="experience-tags">
+              <span>Python</span>
+              <span>Kubernetes</span>
+              <span>Docker</span>
+              <span>SQL</span>
+              <span>GCP</span>
+              <span>Github</span>
+              <span>CI/CD</span>
+              <span>Azure</span>
+              <span>Claude AI</span>
+              <span>Ember JS</span>
+              <span>FastAPI</span>
+            </div>
           </div>
         </article>
 
@@ -132,6 +159,7 @@
               <span>HTML/CSS</span>
               <span>Jira</span>
               <span>Jenkins</span>
+              <span>AWS</span>
               <span>Bitbucket</span>
             </div>
           </div>
@@ -179,23 +207,20 @@
               <span class="coop-label">What is this section about?</span>
             </div>
             <h3>Stories from Each Co-op Work Term</h3>
-            <a href="/coop-reports/s26/introduction/">
-            <div class="coop-highlights" aria-label="Current co-op summary">
-              <span>
-                Summer 2026
-              </span>
+            <div class="coop-highlights" aria-label="Co-op reports by term">
+              <a href="/coop-reports/s26/introduction/"><span>Summer 2026</span></a>
+              <a href="/coop-reports/f26/introduction/"><span>Fall 2026</span></a>
             </div>
-            </a>
           </article>
 
-          <a href="/coop-reports/s26/introduction/" class="coop-term-card playful-card whiteboard-note feature-note" aria-label="Open Summer 2026 co-op report">
+          <a href="/coop-reports/f26/introduction/" class="coop-term-card playful-card whiteboard-note feature-note" aria-label="Open Fall 2026 co-op report">
             <div class="coop-term-topline">
               <span>Read Most Recent Report</span>
             </div>
             <div class="coop-term-main">
-              <p>Summer</p>
+              <p>Fall</p>
               <h3>2026</h3>
-              <span class="coop-company-mark">Kenna</span>
+              <span class="coop-company-mark">In Progress</span>
             </div>
             <div class="coop-term-footer">
               <span>View work term reflection</span>
@@ -213,7 +238,56 @@
       </div>
 
       <div class="projects-grid">
-        <a href="https://github.com/hayamahmoudd/Pray360" target="_blank" rel="noopener noreferrer" class="project-card-link">
+        <a href="https://github.com/hayamahmoud/BugSpray" target="_blank" rel="noopener noreferrer" class="project-card-link">
+          <div class="project-card playful-card">
+            <div class="project-icon" aria-hidden="true">🐛</div>
+            <h4>BugSpray</h4>
+            <p class="project-meta">Nov 2026</p>
+            <p class="project-description">
+              An AI-powered bug-fixing tool connecting Jira, Claude AI, and GitHub to investigate issues, generate fixes, and create draft pull requests.
+            </p>
+            <div class="project-details">
+              <ul>
+                <li>Automates backlog sync, triage, and resolution with approve/reject decisions and Jira updates after PR merge</li>
+                <li>Queues approved bugs sequentially with safeguards for validation, duplicate prevention, cancellation, and human review</li>
+              </ul>
+            </div>
+            <div class="tech-stack">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Claude AI</span>
+              <span class="tech-tag">Jira REST API</span>
+              <span class="tech-tag">GitHub CLI</span>
+              <span class="tech-tag">SQLite</span>
+              <span class="tech-tag">Asyncio</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://github.com/hayamahmoud/PosturePal" target="_blank" rel="noopener noreferrer" class="project-card-link">
+          <div class="project-card playful-card">
+            <div class="project-icon" aria-hidden="true">🧘</div>
+            <h4>PosturePal</h4>
+            <p class="project-meta">Real-time posture tracking</p>
+            <p class="project-description">
+              A webcam-based posture companion that uses MediaPipe pose detection to score posture in real time against a personalized baseline.
+            </p>
+            <div class="project-details">
+              <ul>
+                <li>Tracks head position, shoulder alignment, and forward lean with alerts that work across browser tabs</li>
+                <li>Saves session history and score trends, with friends and leaderboards to encourage healthy habits</li>
+              </ul>
+            </div>
+            <div class="tech-stack">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">Vite</span>
+              <span class="tech-tag">Tailwind CSS</span>
+              <span class="tech-tag">MediaPipe</span>
+              <span class="tech-tag">Firebase</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://github.com/hayamahmoud/Pray360" target="_blank" rel="noopener noreferrer" class="project-card-link">
           <div class="project-card playful-card">
             <div class="project-icon logo-icon"><img src="images/Pray360Logo.png" alt="Pray360 logo"></div>
             <h4>Pray360 (UmmahHacks 2026 Winner)</h4>
@@ -237,7 +311,7 @@
           </div>
         </a>
 
-        <a href="https://github.com/hayamahmoudd/Datathon2025" target="_blank" rel="noopener noreferrer" class="project-card-link">
+        <a href="https://github.com/hayamahmoud/Datathon2025" target="_blank" rel="noopener noreferrer" class="project-card-link">
           <div class="project-card playful-card">
             <div class="project-icon logo-icon"><img src="images/ShelterMap.png" alt="Shelter-Map Toronto logo"></div>
             <h4>ShelterMap Toronto</h4>
@@ -260,7 +334,7 @@
           </div>
         </a>
 
-        <a href="https://github.com/hayamahmoudd/Job-Vacancy-Analysis" target="_blank" rel="noopener noreferrer" class="project-card-link">
+        <a href="https://github.com/hayamahmoud/Job-Vacancy-Analysis" target="_blank" rel="noopener noreferrer" class="project-card-link">
           <div class="project-card playful-card">
             <div class="project-icon logo-icon"><img src="images/statscan.jpg" alt="Statistic Canada logo"></div>
             <h4>Statistics Canada Job Vacancy Analysis</h4>
@@ -283,7 +357,7 @@
           </div>
         </a>
 
-        <a href="https://github.com/hayamahmoudd/CareerFinderAI" target="_blank" rel="noopener noreferrer" class="project-card-link">
+        <a href="https://github.com/hayamahmoud/CareerFinderAI" target="_blank" rel="noopener noreferrer" class="project-card-link">
           <div class="project-card playful-card">
             <div class="project-icon logo-icon"><img src="images/ai.jpg" alt="Gemini AI logo"></div>
             <h4>AI Powered Career Finder</h4>
@@ -305,7 +379,7 @@
           </div>
         </a>
 
-        <a href="https://github.com/hayamahmoudd/RecipeGenerator" target="_blank" rel="noopener noreferrer" class="project-card-link">
+        <a href="https://github.com/hayamahmoud/RecipeGenerator" target="_blank" rel="noopener noreferrer" class="project-card-link">
           <div class="project-card playful-card">
             <div class="project-icon logo-icon"><img src="images/recipes.jpg" alt="Recipes logo"></div>
             <h4>Recipe Generator</h4>
@@ -327,7 +401,7 @@
           </div>
         </a>
 
-        <a href="https://github.com/hayamahmoudd/pengyfloat" target="_blank" rel="noopener noreferrer" class="project-card-link">
+        <a href="https://github.com/hayamahmoud/pengyfloat" target="_blank" rel="noopener noreferrer" class="project-card-link">
           <div class="project-card playful-card">
             <div class="project-icon logo-icon"><img src="images/pengyFront.PNG" alt="Pengy Float logo"></div>
             <h4>Pengy Float</h4>
@@ -450,7 +524,7 @@
               <div class="contact-link-arrow">-&gt;</div>
             </a>
 
-            <a href="https://github.com/hayamahmoudd" target="_blank" rel="noopener noreferrer" class="contact-link-card playful-card">
+            <a href="https://github.com/hayamahmoud" target="_blank" rel="noopener noreferrer" class="contact-link-card playful-card">
               <div class="contact-link-icon">
                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                   <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/>
@@ -459,7 +533,7 @@
               </div>
               <div class="contact-link-text">
                 <span class="contact-link-label">GitHub</span>
-                <span class="contact-link-value">github.com/hayamahmoudd</span>
+                <span class="contact-link-value">github.com/hayamahmoud</span>
               </div>
               <div class="contact-link-arrow">-&gt;</div>
             </a>
@@ -528,7 +602,7 @@
             <circle cx="4" cy="4" r="2"/>
           </svg>
         </a>
-        <a href="https://github.com/hayamahmoudd" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+        <a href="https://github.com/hayamahmoud" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/>
             <path d="M9 18c-4.51 2-5-2-7-2"/>
@@ -748,6 +822,13 @@
 
     initScrollDownCues();
     if (form) form.addEventListener('submit', submitContactForm);
+    document.querySelectorAll('a[href="/coop-reports/f26/introduction/"]').forEach(link => {
+      link.addEventListener('click', event => {
+        if (window.location.protocol !== 'file:') return;
+        event.preventDefault();
+        window.location.href = 'fall-2026.html?reportSection=introduction';
+      });
+    });
   </script>
 </body>
 </html>

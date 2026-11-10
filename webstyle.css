@@ -1464,6 +1464,10 @@ nav ul li a.active::after,
   margin-top: var(--space-xl);
 }
 
+.coop-highlights a {
+  display: inline-flex;
+}
+
 .coop-highlights span {
   padding: 0.55rem 0.8rem;
   background: var(--background-alt);
